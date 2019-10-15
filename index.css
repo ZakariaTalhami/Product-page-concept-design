@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabriela', serif;
+}
+
+.main-container {
+    margin-top: 3.5rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100vw;
+    height: 3.5rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 0 20%;
+    background: rgba(0, 0, 0, 0.856);
+    color: white
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    padding: 0.5rem 2rem
+}
+
+section {
+    position: relative;
+}
+
+section img, section {
+    width: 100vw;
+    height: calc(100vh - 3rem);
+}
+
+section .text {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+section .text h1 {
+    font-size: 3rem 
+}
+
+section .text h3 {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+section .text button {
+    margin-left: 25%;
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    color: rgb(196, 195, 195);
+    border-color: #0007;
+    background-color: #021f82cf;
+    box-shadow: 5px 05px 20px 2px rgb(150, 149, 149);
+}
+
+section.two {
+    color: white;
+}
+
+section.two .text {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+section.two .text button {
+    margin-left: 25%;
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    color: rgb(31, 30, 30);
+    border-color: #0007;
+    background-color: #ffffff;
+    box-shadow: 5px 05px 20px 2px rgb(87, 87, 87);
+}
+
+section.three {
+    color: white;
+}
+
+section.three .text {
+    position: absolute;
+    /* top: 500px;
+    left: 100px; */
+}
+
+section.three .text button {
+    margin-left: 25%;
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    color: rgb(31, 30, 30);
+    border-color: #0007;
+    background-color: #ffffff;
+    box-shadow: 5px 05px 20px 2px rgb(114, 114, 114);
+}
+
+section.four {
+    color: #cecdcd;
+}
+
+section.four .text {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+section.four .text button {
+    margin-left: 25%;
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    color: rgb(31, 30, 30);
+    border-color: #0007;
+    background-color: #cecdcd;
+    box-shadow: 5px 05px 20px 2px rgb(66, 66, 66);
+}
